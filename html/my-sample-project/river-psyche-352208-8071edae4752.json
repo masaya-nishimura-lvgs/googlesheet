@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "river-psyche-352208",
+  "private_key_id": "8071edae4752b412652a7c2c5ba0fdcca5069a19",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCNeMoGb9UkwMa2\n4nHqq04+ql5X9YMuaTAMDcNgXvz3CvOfFSiEfOxYkgtv1+50muisXfKgvcLw5XEn\nJO0MuFTHKE5eVUryTcM3HRdZy2jTElxNxIxdwKyYt10utlYUqxTAcsxA2yW1I3oY\nEn2d1g275tfyI/e2tqiaxMPhIthlWWQWA1Fxxz/2zxFZ1nnnhL5kflweuASb60ZM\n4DO6uy4mwW4GPjxbR2mgAFndxDN3OEFTFgrqQ3h/zWb2w4IntVEnpt/SovuxtoJP\nwaX06Is0udr4CcCAI4+MTw3sgbUJGYhNudXii9o4LjJ0ZVrWzEUEhixmyDaxyrHP\nsIHv3ftFAgMBAAECggEADSW1DK0W70/1B6j6sjbSUjOOCfmYg9clrnEW/51EQAcm\nBdo3Bjz/z+leo7m7AN4mkmI2uqZ39+AyyFL/rqdwxYNi6RRfHy6H3lbXRTKIntj9\neAK0kr/lqlmcEMvEKy6NAqeIgNx84B0YayVIxELQyu4Ukn2yNyo5eAyiMYmF98EY\nE1q+LKj7xsytw+2T7cMuLXVCc/CtQn1S4jYoG1E/e2m4ynsBpjenlWohO3CxB6U0\nKCG56pg0rmjf4juK2ONyWq/br9p7LaAlEMBFU7O+8JY76gkdr4CFKuCp9Y1lSLzj\ntgTaLbQX+r4jj5y712GwM6NVM23Ykn/5BFVCVYcnbwKBgQC+Y0FOeG3ylyGa3SBR\nNX65K2llMtuyyDxqZPBuhPyA9Pq9tYxK8rCBOs9pwju3gnmYWeukS4WTektPyLHZ\nz301MKSwCi5cjs44JgWOydGuCN6lfuqtxXrwe9jYzEUwMzrwkTsL4SBp5dCAc0Fo\nHlv2iMCjBH4hwAuj8zPDytYypwKBgQC+OfwOueo2aXkbwVDC22ELcCBWjuvCHDT4\nNql/1grj5KibFIipVYkxRusttBgMTZeOlW1Qmj04k97YJb/mk67cw1zLGxsR1sss\nji2+Wrr0G29qgczDjj4VGKpK+Uyab0Kstub60vuv7I7RmjtngN7JNIZY6MVdFDCw\nU2LX9i98MwKBgQCNElzEuWW2uJeU+b7Fjd79dBZffyTdv5NMvsiNDAtRvrTAt3Jh\n4pw41Yv08JBxNMPGyPJbRf6PPbHqR2rJWv6K2CVfr9uUh9h0MHAz0oWE8FuRw44+\n/rJO2WXfltS5l2xX7zUSY1kyPrCVTVGsxboc3k3nPR/9ACFf9YhozraSxwKBgQCh\nPoVp9i2R8dW2sSbEBTE9gM3okT1GTKKZw7vpoIWapzhEPCObZeXk3zh6hS3dP+g3\n9HG04QkD7FP45AbGbGjMuMzvXQqVFH0kR2B++ml+gcLvhRcMrIXzW/T9mFRWk/jw\nbhlcg3rUpLBq+1Ffat1tsBgxRR4GyBZ9YDFo3kViAQKBgQC3X07IlM9JgKKAg+yo\nZ2qV9IMcoOLHiuwpJTF0/IdBgbX9RiqO21CitveiEj95Eo6vAwFNpfF89TKjCnvu\nfelhwwU48LqaLi5BXPRyvSshSRbHHsdxJjef7udfyinv2ckBMCk++K9YIPSPHRbH\nHdinodMaWzlyu+NbAAAZehJ4gQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "my-project-76969@river-psyche-352208.iam.gserviceaccount.com",
+  "client_id": "117713421285252987671",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/my-project-76969%40river-psyche-352208.iam.gserviceaccount.com"
+}

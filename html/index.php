@@ -7,32 +7,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
+
 <?php 
-    $result=file_get_contents('https://docs.google.com/spreadsheets/d/1uSpjaEiVI6dlb7Mqozz2U17iXlXP8UDzKM2U6cMQjiw/edit?usp=sharing');
-    $arr=json_decode($result,true);
-    $data=$arr['feed']['entry'];
+
+require __DIR__ . '/my-sample-project/vendor/autoload.php';
+
+$key = __DIR__ . '/my-sample-project/river-psyche-352208-8071edae4752.json';
+$sheet_id = "1uSpjaEiVI6dlb7Mqozz2U17iXlXP8UDzKM2U6cMQjiw";
+
+$client = new \Google_Client();
+$client->setAuthConfig($key);
+$client->addScope(\Google_Service_Sheets::SPREADSHEETS);
+$client->setApplicationName("Test"); // 適当な名前でOK
+$sheet = new \Google_Service_Sheets($client);
+
+/*
+ * シートデータの取得
+ */
+$sheet_name = "シート1"; // シートを指定
+$sheet_range = "A2:B8"; // 範囲を指定。開始から終了まで斜めで囲む感じです。
+$response = $sheet->spreadsheets_values->get($sheet_id, $sheet_name.'!'.$sheet_range);
+foreach ($response->getValues() as $index => $cols) {
+    var_dump($cols);
+}
+
 ?>
-<table>
-    <tr>
-        <td>No.</td>
-        <td>Name</td>
-        <td>Email</td>
-    </tr>
-    <?php
-    var_dump($data);
-    //     $i=1; 
-    //     foreach($data as $list){
-    //         $str=$list['content']['$t'];
-    //         $arr=explode(",",$str);
-    //         $emailArr=explode(":",$arr[0]);
-    //         echo "<tr>
-    //             <td>$i</td>
-    //             <td>".$list['title']['$t']."</td>
-    //             <td>".$emailArr[1]."</td>
-    //         </tr>";
-    //         $i++;
-    // }
-    ?>
-</table>
+
 </body>
 </html>
